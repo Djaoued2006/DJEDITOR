@@ -3,8 +3,8 @@
 #include <ncurses.h>
 #include <string.h>
 
-#include "./types.h"
-#include "./editor.h"
+#include "./include/types.h"
+#include "./include/editor.h"
 
 void editor_clean(EDITOR *editor) {
     free(editor->buffer.content);

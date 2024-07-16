@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-typedef struct {
-	struct NODE *left, *right;
-	int value;
-}
 
 int main(void) {
+	int number = 10;
+	if (number == 10) printf("DJAOUED\n");
+	else {
+		exit(EXIT_FAILURE);
+	}
 	return 0;
 }
